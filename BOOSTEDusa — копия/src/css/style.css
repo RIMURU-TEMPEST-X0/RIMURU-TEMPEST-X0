@@ -1,0 +1,560 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: lato, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.col-4 {
+    width: 33.3%;
+    padding: 0 15px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 0 15px;
+}
+
+/*/*/
+
+
+/*/icons/*/
+.li-icon:hover {
+    font-size: 10px;
+    color: black;
+    transition: .6s;
+}
+
+.li-icon {
+    list-style: none;
+}
+
+.footer-icons {
+    column-gap: 23px;
+    display: flex;
+    list-style: none;
+
+}
+
+.footer-a {
+    color: black;
+    transition: .6s;
+    font-size: 25px;
+}
+
+.footer-a:hover {
+    color: coral;
+    transition: .6s;
+    font-size: 20px;
+}
+
+/*/icons/*/
+
+
+/*/header/*/
+.header-item {
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url("../images/boosted/Rectangle.png") top left/100% 150%;
+}
+
+.header-menu {
+    border: none;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    padding-right: 100px;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.header-link {
+    text-transform: uppercase;
+    color: black;
+    margin-right: 20px;
+}
+
+.header-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 23px 15px;
+}
+
+.header-line {
+    background-color: black;
+    width: 100%;
+    height: 30px;
+}
+
+.header-text {
+    text-align: center;
+    color: white;
+    padding: 7px;
+    font-size: 12px;
+    line-height: 15px;
+
+}
+
+.title-images {
+    position: absolute;
+}
+
+.header-title {
+    padding-top: 53px;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 14px;
+    font-weight: 400;
+}
+
+.header-text {
+    text-align: center;
+
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.header-button {
+    text-align: center;
+    width: 201px;
+    height: 34px;
+    background-color: #FF4A32;
+    border-radius: 35px;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 400;
+    margin-top: 22px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.header-button:hover {
+    background-color: #b8b800;
+    transition: 1s;
+    cursor: pointer;
+    color: #FAFAFA;
+
+}
+
+/*/header/*/
+
+/*/heading/*/
+.heading {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    display: flex;
+
+}
+
+.images-liste {
+    width: 100px;
+    height: 20px;
+    margin: 18px 122px 18px 122px;
+
+}
+
+/*/heading/*/
+
+/*/look/*/
+.look-title {
+    text-align: center;
+    margin-top: 52px;
+    margin-bottom: 17px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.look-text {
+    text-align: center;
+    margin-bottom: 72px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.look-item-1 {
+    color: white;
+    height: 80vh;
+    width: 500px;
+    background: url("../images/look/Rectangle (10).png") top left/100% 100%;
+}
+
+.look-item-2 {
+    color: white;
+    height: 80vh;
+    width: 500px;
+    background: url("../images/look/Rectangle (11).png") top left/100% 100%;
+}
+
+.look-wrap {
+    display: flex;
+
+}
+
+.looks-title {
+    margin-left: 130px;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 14px;
+    top: 100%;
+    left: 43%;
+    transform: translate(-0%, 700%);
+}
+
+.looks-text {
+    margin-left: 130px;
+    font-size: 18px;
+    font-weight: 400;
+    top: 50%;
+    left: 50%;
+    transform: translate(20%, 900%);
+}
+
+/*/look/*/
+
+/*/electric/*/
+.electric {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin-top: 20px;
+    background: url("../images/electric/Rectangle (12).png") top left/100% 100%;
+}
+
+.electric-title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.electric-text {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+
+}
+
+.above-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 11px;
+}
+
+.electric-wrap {
+    padding-top: 14px;
+    text-align: center;
+    transform: translate(50%, -70%);
+
+}
+
+.button-wrap {
+    text-align: center;
+    margin-top: 22px;
+    margin-left: 450px;
+}
+
+.electric-button {
+    text-align: center;
+    width: 201px;
+    height: 33px;
+    background-color: #FF4A32;
+    border-radius: 35px;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 400;
+    margin-top: 22px;
+    transition: 1s;
+    cursor: pointer;
+    transform: translate(-100%, -50%);
+}
+
+.electric-button:hover {
+    background-color: #b8b800;
+    transition: 1s;
+    cursor: pointer;
+    color: #FAFAFA;
+
+}
+
+/*/electric/*/
+
+/*/boosted/*/
+.boosted-wrap {
+    display: flex;
+    margin-top: 44px;
+    justify-content: space-between;
+}
+
+.boosted-title {
+    margin: 80px 30px 21px;
+    font-weight: 400;
+}
+
+.boosted-item {
+    margin: 15px;
+}
+
+.boosted-text {
+    padding-left: 30px;
+    font-weight: 400;
+}
+
+.boosted-button {
+    margin-left: 30px;
+    margin-top: 23px;
+    text-align: center;
+    width: 101px;
+    height: 33px;
+    background-color: #FF4A32;
+    border-radius: 35px;
+    outline: none;
+    border: none;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+.boosted-button:hover {
+    background-color: #b8b800;
+    transition: 1s;
+    cursor: pointer;
+    color: #FAFAFA;
+
+}
+
+/*/boosted/*/
+
+/*/stock/*/
+.stock-1 {
+    margin-top: 45px;
+    width: 450px;
+    align-items: center;
+    display: flex;
+    color: white;
+    height: 60vh;
+    background: url("../images/stock/Rectangle (15).png") top left/100% 130%;
+}
+
+.stock-2 {
+    margin-top: 45px;
+    width: 450px;
+    align-items: center;
+    display: flex;
+    color: white;
+    height: 60vh;
+    background: url("../images/stock/Rectangle (16).png") top left/100% 130%;
+}
+
+.stock-3 {
+    margin-top: 45px;
+    width: 450px;
+    align-items: center;
+    display: flex;
+    color: white;
+    height: 60vh;
+    background: url("../images/stock/Rectangle (17).png") top left/100% 130%;
+}
+
+.stock-above {
+    margin-top: 50px;
+    margin-left: 110px;
+}
+
+.stock-wrap {
+    display: flex;
+}
+
+.stock-title {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.stock-text {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+/*/stock/*/
+
+/*/video/*/
+.video-item {
+    width: 400px;
+    height: 380px;
+    padding: 100px 0;
+}
+
+.video-play {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-wrap {
+    display: flex;
+    width: 100%;
+}
+
+/*/video/*/
+
+/*/accessories/*/
+.accessories {
+    padding: 64px 0 98px;
+}
+
+.accessories-title {
+    text-align: center;
+}
+
+/*/accessories/*/
+
+/*/dark/*/
+.dark-wrap {
+    background-color: black;
+    width: 100%;
+    height: 308px;
+    display: flex;
+    color: white;
+    text-align: center;
+}
+
+.dark-images {
+    margin-top: 35px;
+}
+
+.dark-title {
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.dark-text {
+    margin: 30px;
+    font-weight: 400;
+}
+
+/*/dark/*/
+
+/*explore*/
+.explore-wrap {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.explore {
+    background-color: #f3f3f3;
+}
+
+.explore-title {
+    font-weight: 400;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.explore-text {
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+/*explore*/
+
+/*/mobile/*/
+.mobile-btn {
+    width: 55px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-btn-span {
+    width: 100%;
+    height: 3px;
+    background: black;
+    display: inline-block;
+    position: relative;
+}
+
+.mobile-btn-span::before, .mobile-btn-span::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    transition: .6s;
+}
+
+.mobile-btn-span::before {
+    top: -10px;
+}
+
+.mobile-btn-span::after {
+    top: 10px;
+}
+
+/*/mobile/*/
+
+/*/footer/*/
+
+.footer-wrap {
+    display: flex;
+    padding: 19px 0 32px 132px;
+
+}
+
+.footer-text {
+    color: #FF4A32;
+}
+
+
+.slider-icons {
+    justify-content: space-between;
+    display: flex;
+    column-gap: 23px;
+    list-style: none;
+    font-size: 20px;
+    padding: 0 10px;
+    margin-right: 10px;
+    color: #1da1f2;
+
+}
+
+.slider-icon {
+    display: flex;
+}
+
+/*/footer/*/
